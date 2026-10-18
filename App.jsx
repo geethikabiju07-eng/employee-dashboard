@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/employee-dashboard">
       <Navbar />
       <main className="container">
         <Routes>
